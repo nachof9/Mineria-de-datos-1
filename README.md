@@ -4,7 +4,7 @@
 
 - **Integrante:** Ignacio Fonzo
 - **Fecha de entrega:** Julio 2026
-- **Aplicación pública:** [Streamlit Cloud](https://COMPLETAR.streamlit.app) *(completar tras el despliegue)*
+- **Aplicación pública:** [Streamlit Cloud](https://mineria-de-datos-1-mplfyeaquzsro35qryqkfa.streamlit.app)
 - **Informe final:** [reports/informe_final.pdf](reports/informe_final.pdf)
 
 ## Objetivo del proyecto
@@ -75,7 +75,7 @@ categóricas (plan), no por combinaciones lineales de las numéricas.
 ## Visualización interactiva
 
 Aplicación desarrollada en Streamlit y desplegada en
-[Streamlit Cloud](https://COMPLETAR.streamlit.app) *(completar tras el despliegue)*.
+[Streamlit Cloud](https://mineria-de-datos-1-mplfyeaquzsro35qryqkfa.streamlit.app).
 Incluye descripción del dataset y su preparación, 5 visualizaciones de EDA con interpretación,
 resultados del PCA y conclusiones para público general.
 
