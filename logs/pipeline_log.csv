@@ -1,0 +1,12 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+0,Estado inicial (data/raw),8160,753,100.0
+1,Eliminación de duplicados exactos,8034,753,98.46
+2,Eliminación de duplicados por user_id (se conserva la primera aparición),8000,753,98.04
+3,Normalización de subscription_plan (15 variantes -> 3 categorías),8000,753,98.04
+4,Normalización de country (26 variantes -> 7 países),8000,753,98.04
+5,Normalización de favorite_genre (28 variantes -> 7 géneros) y nulos -> 'Desconocido',8000,513,98.04
+6,"age fuera de [13,100] (120 casos) -> imputación con mediana (33)",8000,513,98.04
+7,watch_time: 80 inválidos (negativos/99999) + 193 nulos -> mediana por plan,8000,320,98.04
+8,"tickets inválidos (-1, 99, 150: 96 casos) -> imputación con mediana (1)",8000,320,98.04
+9,Fechas: parseo de 2 formatos; inválidas y futuras (15) -> NaT (sin eliminar filas),8000,610,98.04
+10,Derivación de days_since_last_login (recencia respecto de 2026-07-04),8000,1220,98.04
